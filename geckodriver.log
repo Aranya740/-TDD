@@ -17,3 +17,9 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1647745749266	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1647745751702	Marionette	INFO	Stopped listening on port 50692
 JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1648131820470	geckodriver	INFO	Listening on 127.0.0.1:55006
+1648131823533	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ARANYA~1\\AppData\\Local\\Temp\\rust_mozprofile0orhgj"
+1648131824372	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Aranya\u7231\u5403\\AppData\\Local\\Temp\\rust_mozprofile0orhgj\\search.json.mozlz4", (void 0)))
+1648131827456	Marionette	INFO	Listening on port 55014
+1648131827776	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
