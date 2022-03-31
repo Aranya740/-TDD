@@ -23,3 +23,22 @@ JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Aranya\u7231\u5403\\AppData\\Local\\Temp\\rust_mozprofile0orhgj\\search.json.mozlz4", (void 0)))
 1648131827456	Marionette	INFO	Listening on port 55014
 1648131827776	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648712597192	geckodriver	INFO	Listening on 127.0.0.1:54754
+1648712600354	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ARANYA~1\\AppData\\Local\\Temp\\rust_mozprofileGbCyek"
+1648712602258	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Aranya\u7231\u5403\\AppData\\Local\\Temp\\rust_mozprofileGbCyek\\search.json.mozlz4", (void 0)))
+1648712606818	Marionette	INFO	Listening on port 54762
+1648712606882	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648712613357	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1648712613485	Marionette	INFO	Stopped listening on port 54762
+1648712734875	geckodriver	INFO	Listening on 127.0.0.1:54823
+1648712738018	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ARANYA~1\\AppData\\Local\\Temp\\rust_mozprofilehqN9CV"
+1648712738443	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Aranya\u7231\u5403\\AppData\\Local\\Temp\\rust_mozprofilehqN9CV\\search.json.mozlz4", (void 0)))
+1648712740897	Marionette	INFO	Listening on port 54831
+1648712741296	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648712741535	Marionette	INFO	Stopped listening on port 54831
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
