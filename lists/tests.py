@@ -51,6 +51,10 @@ class ListViewTest(TestCase):
 
         self.assertContains(response, 'itemey 1')
         self.assertContains(response, 'itemey 2')
+
+    def test_redirects_after_POST(self):
+        response = self.client.post('/',data={'item_text':'A new list item'})
+        self.assertRedirects(response, '/lists/the-only-list-in-the-world/')
     
 
 '''
