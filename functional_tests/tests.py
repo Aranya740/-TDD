@@ -1,11 +1,12 @@
 from django.test import LiveServerTestCase
+from django.contrib.staticfiles.testing import StaticLiveServerTestCase
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import WebDriverException
 import time
 MAX_WAIT = 10
 
-class NewVisitorTest(LiveServerTestCase):
+class NewVisitorTest(StaticLiveServerTestCase):
     def setUp(self):
         self.browser = webdriver.Firefox()
 
@@ -37,7 +38,7 @@ class NewVisitorTest(LiveServerTestCase):
             inputbox.location['x'] + inputbox.size['width']/2,512,
             delta=10)
         
-    '''    
+     
     def test_can_start_a_list_and_retrieve_it_later(self):
         self.browser.get(self.live_server_url)
         self.assertIn('To-Do',self.browser.title)
@@ -102,7 +103,7 @@ class NewVisitorTest(LiveServerTestCase):
         page_text = self.browser.find_element_by_tag_name('body').text
         self.assertNotIn('Buy peacock feathers',page_text)
         self.assertIn('Buy milk',page_text)
-    '''     
+         
        
 '''
 if __name__=='__main__':
